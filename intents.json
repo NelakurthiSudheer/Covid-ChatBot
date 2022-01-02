@@ -1,0 +1,108 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "no answer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?","who are you","What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through covid-19 related doubts"],
+         "context": [""]
+        },
+        {"tag": "corona",
+         "patterns": ["What is a novel coronavirus?", "What novel coronavirus", "What about novel coronavirus?", "what coronavirus", "Tell me about covid","Tell me about corona virus","corona virus","novel corona virus","novel virus" ],
+         "responses": ["A novel coronavirus is a new coronavirus that has not been previously identified.The virus causing coronavirus disease 2019 (COVID-19),is not the same as the coronaviruses that commonly circulate among humans and cause mild illness, like the common cold."],
+         "context": [""]
+        },
+        {"tag": "weather",
+         "patterns": ["Will warm weather stop the outbreak of COVID-19?", "does covid depend on weather conditions", "covid spread with temperature", "can covid increase with temperature"],
+         "responses": ["It is not yet known whether weather and temperature affect the spread of COVID-19.Some other viruses, like those that cause the common cold and flu, spread more during cold weather months but that does not mean it is impossible to become sick with these viruses during other months. There is much more to learn about the transmissibility, severity, and other features associated with COVID-19 and investigations are ongoing."],
+         "context": [""]
+        },
+        {"tag": "food",
+         "patterns": ["Can I get COVID-19 from food","does covid spread with food","can corona spreads through food","can covid spread through food"],
+         "responses": ["Currently there is no evidence that people can get COVID-19 by eating or handling food.It may be possible that people can get COVID-19 by touching a surface or object, such as a food package or dining ware that has the virus on it and then touching their own mouth, nose, or possibly their eyes. However, this is not thought to be the main way the virus spreads. There is also no current evidence that people can get COVID-19 by drinking water.The COVID-19 virus has not been detected in drinking water. Conventional water treatment methods that use filtration and disinfection,such as those in most municipal drinking water systems, should remove or kill the virus that causes COVID-19."],
+         "context": [""]
+        },
+        {"tag": "spread",
+         "patterns": ["How does corona spread", "Hoe does covid19 spread", "Hoe does corona virus spread", "How does virus spread", "How covid cases increases","Does virus spread through humans","Does corona virus spreads","How much time virus stay on objects"],
+         "responses": ["The virus that causes COVID is thought to spread mainly from person to person,mainly through respiratory droplets produced when an infected person coughs, sneezes, or talks.These droplets can land in the mouths or noses of people who are nearby or possibly be inhaled into the lungs.Spread is more likely when people are in close contact with one another within about feet. COVID seems to be spreading easily and sustainably in the community community spread in many affected geographic areas.Community spread means people have been infected with the virus in an area, including some who are not sure how or where they became infected."],
+         "context": [""]
+         },
+        {"tag": "protect",
+         "patterns": ["How can I protect myself?", "How can i protect myself from covid?", "How can i survive from covid?", "How to save ourself from covid", "protect from covid","save from covid"],
+         "responses": [" visit the link https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html"],
+         "context": [""]
+         },
+        {"tag": "drinkingwater",
+         "patterns": ["Can the virus that causes COVID-19 spread through treated drinking water?", "can covid spread through the water", "covid spread with water", "can virus spread through the water", "protect from covid","can i get virus from drinking water"],
+         "responses": ["The virus that causes COVID-19 has not been detected in treated drinking water. Water treatment plants use filters and disinfectants to remove or kill germs, like the virus that causes COVID-19. The Environmental Protection Agency regulates water treatment plants to ensure that treated water is safe to drink. Currently, there is no evidence that the virus that causes COVID-19 can be spread to people by drinking treated water. COVID-19 is spread mainly through close contact from person-to-person. You can continue to use and drink water from your tap as usual."],
+         "context": [""]
+         },
+         {"tag": "animals",
+         "patterns": ["Can I get COVID-19 from my pets or other animals?", "can animals or pets carry virus?", "possibility to get covid from animals or dogs", "can i get a covid from my dog", "can i get a virus from my pets","covid from animals or pets"],
+         "responses": ["At this time, there is no evidence that animals play a significant role in spreading the virus that causes COVID-19. Based on the limited information available to date, the risk of animals spreading COVID-19 to people is considered to be low. A small number of pets have been reported to be infected with the virus that causes COVID-19, mostly after contact with people with COVID-19. Pets have other types of coronaviruses that can make them sick, like canine and feline coronaviruses. These other coronaviruses cannot infect people and are not related to the current COVID-19 outbreak. However, since animals can spread other diseases to people, it’s always a good idea to practice healthy habits around pets and other animals, such as washing your hands and maintaining good hygiene. For more information on the many benefits of pet ownership, as well as staying safe and healthy around animals including pets, livestock, and wildlife, visit CDC’s Healthy Pets, Healthy People website"],
+         "context": [""]
+         },
+         {"tag": "covidfromanimals",
+         "patterns": ["Can animals carry the virus that causes COVID-19 on their skin or fur?", "can animals or pets carry virus?", "possibility to get covid from animals or dogs", "can i get a covid from my dog", "can i get a virus from my pets","covid from animals or pets"],
+         "responses": ["Although we know certain bacteria and fungi can be carried on fur and hair, there is no evidence that viruses, including the virus that causes COVID-19, can spread to people from the skin, fur, or hair of pets. However, because animals can sometimes carry other germs that can make people sick, it’s always a good idea to practice healthy habits around pets and other animals, including washing hands before and after interacting with them"],
+         "context": [""]
+         },
+         {"tag": "vaccine",
+         "patterns": ["Is the vaccine safe for children?", "can children get the vaccination", "is it safe children gets vaccinated", "vaccination for children "],
+         "responses": ["Vaccines are usually tested in adults first, and only later assessed in children when safety has been proven in adults, because children are still developing and growing. COVID-19 has also been a more serious and dangerous disease among older people. Now that the vaccines have been determined to be safe for adults, they are being studied in children."],
+         "context": [""]
+         },
+         {"tag": "benefits",
+         "patterns": ["what are all the benefits of getting vaccinated", "what are the benefits of vaccine", "can i get vaccine", "pros of vaccine"],
+         "responses": ["The COVID-19 vaccines produce protection against the disease, as a result of developing an immune response to the SARS-Cov-2 virus.  Developing immunity through vaccination means there is a reduced risk of developing the  illness and its consequences. This immunity helps you fight the virus if exposed. Getting vaccinated may also protect people around you, because if you are protected from getting infected and from disease, you are less likely to infect someone else. This is particularly important to protect people at increased risk for severe illness from COVID-19, such as healthcare providers, older or elderly adults, and people with other medical conditions."],
+         "context": [""]
+         },
+         {"tag": "takevaccine",
+         "patterns": ["Who should get the COVID-19 vaccines?", "eligibility for vaccine", "who can take vaccine", "can i take vaccine","what age people can take vaccine"],
+         "responses": ["The COVID-19 vaccines are safe for most people 18 years and older, including those with pre-existing conditions of any kind, including auto-immune disorders. These conditions include: hypertension, diabetes, asthma, pulmonary, liver and kidney disease, as well as chronic infections that are stable and controlled."],
+         "context": [""]
+         },
+         {"tag": "sanitizer",
+         "patterns": ["Should I use soap and water or hand sanitizer to protect against COVID-19?", "soap or sanitizer", "is sanitizer is safe to protect from covid","can i wash hands with sanitizer"],
+         "responses": ["Hand washing is one of the best ways to protect yourself and your family from getting sick. Wash your hands often with soap and water for at least 20 seconds, especially after blowing your nose, coughing, or sneezing; going to the bathroom; and before eating or preparing food. If soap and water are not readily available, use an alcohol-based hand sanitizer with at least 60% alcohol."],
+         "context": [""]
+         },
+         {"tag": "blood",
+         "patterns": ["Is it okay for me to donate blood?, Does blood donation effects in spread of corona virus?, Does covid-19 positive person can donate blood?, Does covid-19 negative people can donate blood?,Does virus spread through blood?"],
+         "responses": ["In healthcare settings across the World, donated blood is a lifesaving, essential part of caring for patients. The need for donated blood is constant, and blood centers are open and in urgent need of donations. CDC encourages people who are well to continue to donate blood if they are able, even if they are practicing social distancing because of COVID-19. CDC is supporting blood centers by providing recommendations that will keep donors and staff safe. Examples of these recommendations include spacing donor chairs 6 feet apart, thoroughly adhering to environmental cleaning practices, and encouraging donors to make donation appointments ahead of time."],
+         "context": [""]
+         },
+         {"tag": "positivecases",
+         "patterns": ["Total covid positive cases across world wide,Total covid-19 cases,total covid-19 effected people across worldwide","positive cases"],
+         "responses": ["26.2 Crores people had been affected due to covid 19 across worldwide"],
+         "context": [""]
+         },
+         {"tag": "deaths",
+         "patterns": ["Total number of people died due to covid-19, Total covid death count across worldwide,total covid deaths","covid deaths"],
+         "responses": ["52 lakhs people had been died due to covid 19 across worldwide"],
+         "context": [""]
+         },
+         {"tag": "recovery",
+         "patterns": ["Total number of people recovered due to covid-19, Total covid-19 recoveries, Total covid-19 recoveries count across worldwide"],
+         "responses": ["Around 234 million people had recovered from covid-19 across worldwide"],
+         "context": [""]
+         }
+]
+}
