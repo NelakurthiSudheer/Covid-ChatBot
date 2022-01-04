@@ -223,4 +223,4 @@ python chatgui.py
 ```
 The program will open up a GUI window within a few seconds. With the GUI you can easily chat with the bot.
 ### contributor
-[M Bhmumika](https://github.com/Bhumika-Manchikanti)
+[Bhumika M](https://github.com/Bhumika-Manchikanti)
