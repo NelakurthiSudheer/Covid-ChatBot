@@ -222,3 +222,5 @@ If we don’t see any error during training, we have successfully created the mo
 python chatgui.py
 ```
 The program will open up a GUI window within a few seconds. With the GUI you can easily chat with the bot.
+### contributor
+[M Bhmumika](https://github.com/Bhumika-Manchikanti)
